@@ -5,23 +5,27 @@ header{
     margin-right: 10%;
     margin-top: 0%;
     color: #dbc2a4;
+    
 }
-h1{
+header nav{
     background-color: #2c1d27;
     color: blanchedalmond;
     margin-top: 0%;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-right: 10%; ;
     margin-bottom: 0%;
+    width: 1213px; ; height: 40px;
+
 }
 aside{
     background-color: #fdfcfb;
     width : 857px; height: 492px;
     margin-left: 33%; 
-    margin-top: -33%;
+    margin-top: -34%;
     text-align: center;
     border-style: solid;
     border-color: #782221;
+    justify-content: center;
 }
 address{
     text-align: right;
@@ -38,7 +42,7 @@ nav{
     margin-left: 10%;
     margin-right: 50%;
     margin-top: 0%;
-    width: 350px; height: 500px; ;
+    width: 350px; height: 492px; ;
 }
 footer{
     text-align: center;
@@ -49,14 +53,15 @@ footer{
     margin-top: 0%;
 }
 header img {
-    border-radius: 120px / 120px;
-    box-shadow: 10px 10px 10px black;
+    border-radius: 100px / 100px;
+    box-shadow:0px 0px 0px 5px black;
     cursor: zoom-in ;
-    
+    height:150px; width: 150px;
+
 }
 nav ul{
-    background-color: #dbc2a4;
-    border-color: #782221;
+    
+    border-color:#782221 ;
 }
 footer p{
     text-align: center;
@@ -72,4 +77,71 @@ aside p{
 }
 h2{
     background-color: #dbc2a4;
+    border-left: #782221;
+    
+}
+h2:hover{
+    text-decoration-line: underline;
+}
+body nav ul li{
+    background-color: #782221;
+}
+body header #menu_principal a{
+    justify-content: center;
+    color: #fdfcfb;
+}
+body nav h2{
+    border-left: #782221;
+}
+body{
+    margin-top: 0px;
+}
+body header #menu_principal {
+    display: flex;
+justify-content: space-between;
+}
+body aside ul li{
+    display: flex;
+    justify-content: left;
+}
+
+body aside h2{
+    display: flex;
+    justify-content: left;
+}
+body aside p{
+    display: flex;
+    justify-content: left;
+}
+@font-face{
+    font-family: "Lato" ;
+    src: url('../fonts/Lato/Lato-Regular.woff');
+    src: url('../fonts/Lato/Lato-Italic.ttf') format('truetype');
+    src: url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+
+    font-family: "Raleway";
+    src: url('../fonts/Raleway/Raleway-VariableFont_wght.woff');
+    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('../fonts/Raleway/static/Raleway-Bold.ttf') format('truetype');
+    
+}
+
+body nav h2{
+font-family: "Lato";
+font-size: 1.5em;
+}
+body nav #a_propos{
+font-family: "Raleway";
+font-size: 0.8em;
+text-align: justify ;
+padding-left: 2%;
+padding-right: 2%;
+}
+body aside p{
+font-family: "Raleway";
+font-size: 1em;
+}
+body aside ul li{
+font-family: "Raleway";
+font-size: 1em;
 }
